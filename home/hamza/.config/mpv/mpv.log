@@ -1,0 +1,529 @@
+[   0.000][v][cplayer] Command line options: 'https://www.youtube.com/watch?v=bEJ0_TVXh-I'
+[   0.000][v][cplayer] mpv 0.36.0 Copyright © 2000-2023 mpv/MPlayer/mplayer2 projects
+[   0.000][v][cplayer]  built on Sat Oct 07 03:15:53 2023
+[   0.000][v][cplayer] libplacebo version: v4.208.0
+[   0.000][v][cplayer] FFmpeg version: 4.4.4
+[   0.000][v][cplayer] FFmpeg library versions:
+[   0.000][v][cplayer]    libavutil       56.70.100
+[   0.000][v][cplayer]    libavcodec      58.134.100
+[   0.000][v][cplayer]    libavformat     58.76.100
+[   0.000][v][cplayer]    libswscale      5.9.100
+[   0.000][v][cplayer]    libavfilter     7.110.100
+[   0.000][v][cplayer]    libswresample   3.9.100
+[   0.000][v][cplayer] 
+[   0.000][v][cplayer] Configuration: -Dlua=lua51 -Dcdda=enabled -Ddvdnav=enabled -Dlibmpv=true -Dsdl2=enabled -Dsndio=enabled -Dalsa=disabled -Dandroid-media-ndk=disabled -Daudiounit=disabled -Dcaca=disabled -Dcocoa=disabled -Dcoreaudio=disabled -Dcuda-hwaccel=disabled -Dcuda-interop=disabled -Dd3d9-hwaccel=disabled -Dd3d11=disabled -Dd3d-hwaccel=disabled -Ddirect3d=disabled -Ddmabuf-wayland=disabled -Degl-android=disabled -Degl-angle=disabled -Degl-angle-lib=disabled -Degl-angle-win32=disabled -Degl-drm=disabled -Degl-wayland=disabled -Dgl-cocoa=disabled -Dgl-dxinterop=disabled -Dgl-dxinterop-d3d9=disabled -Dgl-win32=disabled -Dios-gl=disabled -Djack=disabled -Djavascript=disabled -Dlibplacebo-next=disabled -Dmacos-10-11-features=disabled -Dmacos-10-12-2-features=disabled -Dmacos-10-14-features=disabled -Dmacos-cocoa-cb=disabled -Dmacos-media-player=disabled -Dmacos-touchbar=disabled -Dopenal=disabled -Dopensles=disabled -Doss-audio=disabled -Dpipewire=disabled -Dpulse=disabled -Drpi-mmal=disabled -Drubberband=disabled -Dshaderc=disabled -Dsixel=disabled -Dswift-build=disabled -Dsdl2-audio=disabled -Dspirv-cross=disabled -Duchardet=disabled -Dvaapi=disabled -Dvaapi-drm=disabled -Dvaapi-x-egl=disabled -Dvaapi-x11=disabled -Dvaapi-wayland=disabled -Dvapoursynth=disabled -Dvdpau=disabled -Dvdpau-gl-x11=disabled -Dvideotoolbox-gl=disabled -Dvulkan=disabled -Dvulkan-interop=disabled -Dwayland=disabled -Dwin32-internal-pthreads=disabled -Dwasapi=disabled -Dprefix=/usr/local -Dlocalstatedir=/var -Dmandir=/usr/local/man -Dsharedstatedir=/var/db -Dsysconfdir=/etc -Dauto_features=enabled -Dbuildtype=plain -Dwrap_mode=nodownload
+[   0.000][v][cplayer] List of enabled features: bsd-thread-name build-date cdda cplugins dvdnav egl egl-helpers egl-x11 ffmpeg gbm gl glob glob-posix gpl iconv jpeg lcms2 libarchive libass libavdevice libbluray libdl libm libplacebo lua51 manpage-build noexecstack posix posix_shm sdl2 sdl2-gamepad sdl2-video sndio stdatomic threads vector x11 xv zimg zlib
+[   0.000][d][global] home path: '' -> '/home/hamza/.config/mpv'
+[   0.000][d][global] user path: '~~home/' -> '/home/hamza/.config/mpv'
+[   0.000][d][global] user path: '~~old_home/' -> '/home/hamza/.mpv'
+[   0.000][d][global] config path: 'encoding-profiles.conf' -/-> '/home/hamza/.config/mpv/encoding-profiles.conf'
+[   0.000][d][global] config path: 'encoding-profiles.conf' -/-> '/home/hamza/.mpv/encoding-profiles.conf'
+[   0.000][d][global] config path: 'encoding-profiles.conf' -/-> '/etc/mpv/encoding-profiles.conf'
+[   0.000][d][global] config path: 'mpv.conf' -> '/home/hamza/.config/mpv/mpv.conf'
+[   0.000][d][global] config path: 'config' -/-> '/home/hamza/.config/mpv/config'
+[   0.000][d][global] config path: 'mpv.conf' -/-> '/home/hamza/.mpv/mpv.conf'
+[   0.000][d][global] config path: 'config' -/-> '/home/hamza/.mpv/config'
+[   0.000][d][global] config path: 'mpv.conf' -/-> '/etc/mpv/mpv.conf'
+[   0.000][d][global] config path: 'config' -/-> '/etc/mpv/config'
+[   0.000][v][cplayer] Reading config file /home/hamza/.config/mpv/mpv.conf
+[   0.000][v][ifo_dvdnav] Opening /home/hamza/.config/mpv/mpv.conf
+[   0.000][v][bdmv/bluray] Opening /home/hamza/.config/mpv/mpv.conf
+[   0.000][v][file] Opening /home/hamza/.config/mpv/mpv.conf
+[   0.000][d][file] resize stream to 131072 bytes, drop 0 bytes
+[   0.000][d][file] Stream opened successfully.
+[   0.000][e][cplayer] Error parsing option ab-loop (option not found)
+[   0.000][e][cplayer] /home/hamza/.config/mpv/mpv.conf:10: setting option ab-loop='' failed.
+[   0.000][v][cplayer] Applying profile 'default'...
+[   0.000][v][cplayer] Setting option 'brightness' = '0' (flags = 4)
+[   0.000][v][cplayer] Setting option 'contrast' = '0' (flags = 4)
+[   0.000][v][cplayer] Setting option 'image-display-duration' = 'inf' (flags = 4)
+[   0.000][v][cplayer] Setting option 'input-ipc-server' = '/tmp/mpv.sock' (flags = 4)
+[   0.000][v][cplayer] Setting option 'osc' = 'no' (flags = 4)
+[   0.000][v][cplayer] Setting option 'ab-loop-a' = 'no' (flags = 4)
+[   0.000][v][cplayer] Setting option 'ab-loop-b' = 'no' (flags = 4)
+[   0.000][v][cplayer] Setting option 'alang' = 'en,eng' (flags = 4)
+[   0.000][v][cplayer] Setting option 'slang' = 'en,eng' (flags = 4)
+[   0.000][v][cplayer] Setting option 'vlang' = 'en,eng' (flags = 4)
+[   0.000][v][cplayer] Setting option 'sub-auto' = 'all' (flags = 4)
+[   0.000][v][cplayer] Setting option 'sub-font-size' = '32' (flags = 4)
+[   0.000][v][cplayer] Setting option 'sub-pos' = '84' (flags = 4)
+[   0.000][v][cplayer] Setting option 'sub' = 'no' (flags = 4)
+[   0.000][v][cplayer] Setting option 'af' = 'dynaudnorm=b=1:g=3' (flags = 4)
+[   0.000][v][cplayer] Setting option 'audio-channels' = 'stereo' (flags = 4)
+[   0.000][v][cplayer] Setting option 'volume' = '30' (flags = 4)
+[   0.000][v][cplayer] Setting option 'screenshot-format' = 'png' (flags = 4)
+[   0.000][v][cplayer] Setting option 'screenshot-png-compression' = '9' (flags = 4)
+[   0.000][v][cplayer] Setting option 'vo-image-png-compression' = '9' (flags = 4)
+[   0.000][v][cplayer] Setting option 'osd-back-color' = '0/0/0/0.33' (flags = 4)
+[   0.000][v][cplayer] Setting option 'osd-bar-align-y' = '0.93' (flags = 4)
+[   0.000][v][cplayer] Setting option 'osd-bar-h' = '2.4' (flags = 4)
+[   0.000][v][cplayer] Setting option 'osd-bar-w' = '45' (flags = 4)
+[   0.000][v][cplayer] Setting option 'osd-border-size' = '0' (flags = 4)
+[   0.000][v][cplayer] Setting option 'osd-color' = '1' (flags = 4)
+[   0.000][v][cplayer] Setting option 'osd-duration' = '4000' (flags = 4)
+[   0.000][v][cplayer] Setting option 'osd-font-size' = '28' (flags = 4)
+[   0.000][v][cplayer] Setting option 'osd-font' = 'Bitstream Vera Sans' (flags = 4)
+[   0.000][v][cplayer] Setting option 'display-tags-clr' = '' (flags = 4)
+[   0.000][v][cplayer] Setting option 'msg-level' = 'all=status,autoconvert=error,cplayer=error,ffmpeg/audio=error,ffmpeg/video=error,input=error,vo/vdpau=error' (flags = 4)
+[   0.000][v][cplayer] Setting option 'msg-module' = 'no' (flags = 4)
+[   0.000][v][cplayer] Setting option 'msg-color' = 'no' (flags = 4)
+[   0.000][v][cplayer] Setting option 'term-status-msg' = '${time-pos} [${volume}%] ${duration} -- ${filename}' (flags = 4)
+[   0.000][v][cplayer] Setting option 'save-position-on-quit' = '' (flags = 4)
+[   0.000][v][cplayer] Setting option 'watch-later-directory' = '~/.config/mpv-later' (flags = 4)
+[   0.000][v][cplayer] Setting option 'fullscreen' = '' (flags = 4)
+[   0.000][v][cplayer] Setting option 'opengl-swapinterval' = '0' (flags = 4)
+[   0.000][v][cplayer] Setting option 'speed' = '1' (flags = 4)
+[   0.000][v][cplayer] Setting option 'video-align-y' = '0.33' (flags = 4)
+[   0.000][v][cplayer] Setting option 'vo' = 'gpu' (flags = 4)
+[   0.000][v][cplayer] Setting option 'log-file' = '~/.config/mpv/mpv.log' (flags = 4)
+[   0.000][v][cplayer] Setting option 'input-default-bindings' = 'no' (flags = 4)
+[   0.000][d][global] config path: 'input.conf' -/-> '/home/hamza/.config/mpv/input.conf'
+[   0.000][d][global] config path: 'input.conf' -/-> '/home/hamza/.mpv/input.conf'
+[   0.000][d][global] config path: 'input.conf' -/-> '/etc/mpv/input.conf'
+[   0.000][d][global] user path: '~/.config/mpv/mpv.log' -> '/home/hamza/.config/mpv/mpv.log'
+[   0.020][v][cplayer] mpv 0.36.0 Copyright © 2000-2023 mpv/MPlayer/mplayer2 projects
+[   0.020][v][cplayer]  built on Sat Oct 07 03:15:53 2023
+[   0.020][v][cplayer] libplacebo version: v4.208.0
+[   0.020][v][cplayer] FFmpeg version: 4.4.4
+[   0.020][v][cplayer] FFmpeg library versions:
+[   0.020][v][cplayer]    libavutil       56.70.100
+[   0.020][v][cplayer]    libavcodec      58.134.100
+[   0.020][v][cplayer]    libavformat     58.76.100
+[   0.020][v][cplayer]    libswscale      5.9.100
+[   0.020][v][cplayer]    libavfilter     7.110.100
+[   0.020][v][cplayer]    libswresample   3.9.100
+[   0.020][v][cplayer] 
+[   0.020][v][cplayer] Configuration: -Dlua=lua51 -Dcdda=enabled -Ddvdnav=enabled -Dlibmpv=true -Dsdl2=enabled -Dsndio=enabled -Dalsa=disabled -Dandroid-media-ndk=disabled -Daudiounit=disabled -Dcaca=disabled -Dcocoa=disabled -Dcoreaudio=disabled -Dcuda-hwaccel=disabled -Dcuda-interop=disabled -Dd3d9-hwaccel=disabled -Dd3d11=disabled -Dd3d-hwaccel=disabled -Ddirect3d=disabled -Ddmabuf-wayland=disabled -Degl-android=disabled -Degl-angle=disabled -Degl-angle-lib=disabled -Degl-angle-win32=disabled -Degl-drm=disabled -Degl-wayland=disabled -Dgl-cocoa=disabled -Dgl-dxinterop=disabled -Dgl-dxinterop-d3d9=disabled -Dgl-win32=disabled -Dios-gl=disabled -Djack=disabled -Djavascript=disabled -Dlibplacebo-next=disabled -Dmacos-10-11-features=disabled -Dmacos-10-12-2-features=disabled -Dmacos-10-14-features=disabled -Dmacos-cocoa-cb=disabled -Dmacos-media-player=disabled -Dmacos-touchbar=disabled -Dopenal=disabled -Dopensles=disabled -Doss-audio=disabled -Dpipewire=disabled -Dpulse=disabled -Drpi-mmal=disabled -Drubberband=disabled -Dshaderc=disabled -Dsixel=disabled -Dswift-build=disabled -Dsdl2-audio=disabled -Dspirv-cross=disabled -Duchardet=disabled -Dvaapi=disabled -Dvaapi-drm=disabled -Dvaapi-x-egl=disabled -Dvaapi-x11=disabled -Dvaapi-wayland=disabled -Dvapoursynth=disabled -Dvdpau=disabled -Dvdpau-gl-x11=disabled -Dvideotoolbox-gl=disabled -Dvulkan=disabled -Dvulkan-interop=disabled -Dwayland=disabled -Dwin32-internal-pthreads=disabled -Dwasapi=disabled -Dprefix=/usr/local -Dlocalstatedir=/var -Dmandir=/usr/local/man -Dsharedstatedir=/var/db -Dsysconfdir=/etc -Dauto_features=enabled -Dbuildtype=plain -Dwrap_mode=nodownload
+[   0.021][v][cplayer] List of enabled features: bsd-thread-name build-date cdda cplugins dvdnav egl egl-helpers egl-x11 ffmpeg gbm gl glob glob-posix gpl iconv jpeg lcms2 libarchive libass libavdevice libbluray libdl libm libplacebo lua51 manpage-build noexecstack posix posix_shm sdl2 sdl2-gamepad sdl2-video sndio stdatomic threads vector x11 xv zimg zlib
+[   0.021][d][ytdl_hook] Loading lua script @ytdl_hook.lua...
+[   0.021][d][stats] Loading lua script @stats.lua...
+[   0.021][d][console] Loading lua script @console.lua...
+[   0.021][d][auto_profiles] Loading lua script @auto_profiles.lua...
+[   0.021][d][global] user path: '/tmp/mpv.sock' -> '/tmp/mpv.sock'
+[   0.021][v][ipc] Starting IPC master
+[   0.021][d][global] config path: 'scripts' -/-> '/home/hamza/.config/mpv/scripts'
+[   0.021][d][global] config path: 'scripts' -/-> '/home/hamza/.mpv/scripts'
+[   0.021][d][global] config path: 'scripts' -/-> '/etc/mpv/scripts'
+[   0.021][v][cplayer] Waiting for scripts...
+[   0.021][v][ipc] Listening to IPC socket.
+[   0.023][d][auto_profiles] loading mp.defaults
+[   0.023][d][ytdl_hook] loading mp.defaults
+[   0.023][d][stats] loading mp.defaults
+[   0.023][d][console] loading mp.defaults
+[   0.026][d][stats] loading @stats.lua
+[   0.026][d][auto_profiles] loading @auto_profiles.lua
+[   0.026][d][console] loading @console.lua
+[   0.026][d][ytdl_hook] loading @ytdl_hook.lua
+[   0.028][d][stats] reading options for stats 
+[   0.028][d][global] config path: 'script-opts/stats.conf' -/-> '/home/hamza/.config/mpv/script-opts/stats.conf'
+[   0.028][d][global] config path: 'script-opts/stats.conf' -/-> '/home/hamza/.mpv/script-opts/stats.conf'
+[   0.028][d][global] config path: 'script-opts/stats.conf' -/-> '/etc/mpv/script-opts/stats.conf'
+[   0.028][d][stats] script-opts/stats.conf not found. 
+[   0.028][d][global] config path: 'lua-settings/stats.conf' -/-> '/home/hamza/.config/mpv/lua-settings/stats.conf'
+[   0.028][d][global] config path: 'lua-settings/stats.conf' -/-> '/home/hamza/.mpv/lua-settings/stats.conf'
+[   0.028][d][global] config path: 'lua-settings/stats.conf' -/-> '/etc/mpv/lua-settings/stats.conf'
+[   0.028][d][stats] lua-settings/stats.conf not found. 
+[   0.029][d][auto_profiles] Exiting...
+[   0.030][d][cplayer] Run command: define-section, flags=64, args=[name="input_stats", contents="", flags="default"]
+[   0.030][d][cplayer] Run command: enable-section, flags=64, args=[name="input_stats", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.030][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_stats", contents="", flags="force"]
+[   0.030][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_stats", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.045][d][console] reading options for console 
+[   0.045][d][global] config path: 'script-opts/console.conf' -/-> '/home/hamza/.config/mpv/script-opts/console.conf'
+[   0.045][d][global] config path: 'script-opts/console.conf' -/-> '/home/hamza/.mpv/script-opts/console.conf'
+[   0.045][d][global] config path: 'script-opts/console.conf' -/-> '/etc/mpv/script-opts/console.conf'
+[   0.045][d][console] script-opts/console.conf not found. 
+[   0.045][d][global] config path: 'lua-settings/console.conf' -/-> '/home/hamza/.config/mpv/lua-settings/console.conf'
+[   0.045][d][global] config path: 'lua-settings/console.conf' -/-> '/home/hamza/.mpv/lua-settings/console.conf'
+[   0.045][d][global] config path: 'lua-settings/console.conf' -/-> '/etc/mpv/lua-settings/console.conf'
+[   0.045][d][console] lua-settings/console.conf not found. 
+[   0.046][d][global] config path: 'fonts' -/-> '/home/hamza/.config/mpv/fonts'
+[   0.046][d][global] config path: 'fonts' -/-> '/home/hamza/.mpv/fonts'
+[   0.046][d][global] config path: 'fonts' -/-> '/etc/mpv/fonts'
+[   0.046][d][osd/libass] ASS library version: 0x1701000 (runtime 0x1701000)
+[   0.046][v][osd/libass] libass API version: 0x1701000
+[   0.046][v][osd/libass] libass source: tarball: 0.17.1
+[   0.047][v][osd/libass] Shaper: FriBidi 1.0.13 (SIMPLE) HarfBuzz-ng 8.2.1 (COMPLEX)
+[   0.047][d][global] config path: 'subfont.ttf' -/-> '/home/hamza/.config/mpv/subfont.ttf'
+[   0.047][d][global] config path: 'subfont.ttf' -/-> '/home/hamza/.mpv/subfont.ttf'
+[   0.047][d][global] config path: 'subfont.ttf' -/-> '/etc/mpv/subfont.ttf'
+[   0.047][d][global] config path: 'fonts.conf' -/-> '/home/hamza/.config/mpv/fonts.conf'
+[   0.047][d][global] config path: 'fonts.conf' -/-> '/home/hamza/.mpv/fonts.conf'
+[   0.047][d][global] config path: 'fonts.conf' -/-> '/etc/mpv/fonts.conf'
+[   0.047][v][osd/libass] Setting up fonts...
+[   0.054][v][osd/libass] Using font provider fontconfig
+[   0.054][v][osd/libass] Done.
+[   0.055][d][cplayer] Run command: define-section, flags=64, args=[name="input_console", contents="", flags="default"]
+[   0.055][d][cplayer] Run command: enable-section, flags=64, args=[name="input_console", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.055][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_console", contents="", flags="force"]
+[   0.055][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_console", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.065][d][ytdl_hook] reading options for ytdl_hook 
+[   0.065][d][global] config path: 'script-opts/ytdl_hook.conf' -/-> '/home/hamza/.config/mpv/script-opts/ytdl_hook.conf'
+[   0.065][d][global] config path: 'script-opts/ytdl_hook.conf' -/-> '/home/hamza/.mpv/script-opts/ytdl_hook.conf'
+[   0.065][d][global] config path: 'script-opts/ytdl_hook.conf' -/-> '/etc/mpv/script-opts/ytdl_hook.conf'
+[   0.065][d][ytdl_hook] script-opts/ytdl_hook.conf not found. 
+[   0.065][d][global] config path: 'lua-settings/ytdl_hook.conf' -/-> '/home/hamza/.config/mpv/lua-settings/ytdl_hook.conf'
+[   0.065][d][global] config path: 'lua-settings/ytdl_hook.conf' -/-> '/home/hamza/.mpv/lua-settings/ytdl_hook.conf'
+[   0.065][d][global] config path: 'lua-settings/ytdl_hook.conf' -/-> '/etc/mpv/lua-settings/ytdl_hook.conf'
+[   0.065][d][ytdl_hook] lua-settings/ytdl_hook.conf not found. 
+[   0.065][v][cplayer] Done loading scripts.
+[   0.065][d][global] user path: '~/.config/mpv-later' -> '/home/hamza/.config/mpv-later'
+[   0.066][d][global] user path: '~/.config/mpv-later' -> '/home/hamza/.config/mpv-later'
+[   0.066][v][cplayer] Running hook: ytdl_hook/on_load
+[   0.066][v][ytdl_hook] ytdl:// hook 
+[   0.066][v][ytdl_hook] not a ytdl:// url 
+[   0.066][v][ffmpeg] Opening https://www.youtube.com/watch?v=bEJ0_TVXh-I
+[   0.087][d][ffmpeg] tcp: Starting connection attempt to 172.217.170.174 port 443
+[   0.096][d][ffmpeg] tcp: Successfully connected to 172.217.170.174 port 443
+[   0.441][d][ffmpeg] resize stream to 131072 bytes, drop 0 bytes
+[   0.441][v][ffmpeg] Mime-type: 'text/html; charset=utf-8'
+[   0.441][d][ffmpeg] Stream opened successfully.
+[   0.441][v][demux] Trying demuxers for level=normal.
+[   0.441][d][demux] Trying demuxer: disc (force-level: normal)
+[   0.441][d][demux] Trying demuxer: edl (force-level: normal)
+[   0.441][d][demux] Trying demuxer: cue (force-level: normal)
+[   0.441][d][demux] Trying demuxer: rawaudio (force-level: normal)
+[   0.442][d][demux] Trying demuxer: rawvideo (force-level: normal)
+[   0.442][d][demux] Trying demuxer: mkv (force-level: normal)
+[   0.442][d][demux] Trying demuxer: libarchive (force-level: normal)
+[   0.445][d][demux] Trying demuxer: lavf (force-level: normal)
+[   0.675][d][ffmpeg] resize stream to 262144 bytes, drop 0 bytes
+[   0.764][d][ffmpeg] resize stream to 524288 bytes, drop 0 bytes
+[   1.085][d][ffmpeg] resize stream to 1048576 bytes, drop 0 bytes
+[   1.447][d][ffmpeg] resize stream to 2097152 bytes, drop 0 bytes
+[   1.497][v][lavf] No format found, try lowering probescore or forcing the format.
+[   1.497][d][demux] Trying demuxer: mf (force-level: normal)
+[   1.497][d][demux] Trying demuxer: playlist (force-level: normal)
+[   1.497][d][demux] Trying demuxer: null (force-level: normal)
+[   1.497][v][demux] Trying demuxers for level=unsafe.
+[   1.497][d][demux] Trying demuxer: disc (force-level: unsafe)
+[   1.497][d][demux] Trying demuxer: edl (force-level: unsafe)
+[   1.497][d][demux] Trying demuxer: cue (force-level: unsafe)
+[   1.497][d][demux] Trying demuxer: rawaudio (force-level: unsafe)
+[   1.497][d][demux] Trying demuxer: rawvideo (force-level: unsafe)
+[   1.497][d][demux] Trying demuxer: mkv (force-level: unsafe)
+[   1.497][d][demux] Trying demuxer: libarchive (force-level: unsafe)
+[   1.497][d][demux] Trying demuxer: lavf (force-level: unsafe)
+[   1.557][d][ffmpeg] resize stream to 1048576 bytes, drop 0 bytes
+[   1.604][d][ffmpeg] resize stream to 2097152 bytes, drop 0 bytes
+[   1.655][v][lavf] No format found, try lowering probescore or forcing the format.
+[   1.655][d][demux] Trying demuxer: mf (force-level: unsafe)
+[   1.655][d][demux] Trying demuxer: playlist (force-level: unsafe)
+[   1.655][d][demux] Trying demuxer: null (force-level: unsafe)
+[   1.656][d][ffmpeg] AVIOContext: Statistics: 920191 bytes read, 0 seeks
+[   1.656][v][cplayer] Opening failed or was aborted: https://www.youtube.com/watch?v=bEJ0_TVXh-I
+[   1.656][v][cplayer] Running hook: ytdl_hook/on_load_fail
+[   1.656][v][ytdl_hook] full hook 
+[   1.656][d][global] config path: 'yt-dlp' -/-> '/home/hamza/.config/mpv/yt-dlp'
+[   1.656][d][global] config path: 'yt-dlp' -/-> '/home/hamza/.mpv/yt-dlp'
+[   1.656][d][global] config path: 'yt-dlp' -/-> '/etc/mpv/yt-dlp'
+[   1.656][v][ytdl_hook] No youtube-dl found with path yt-dlp in config directories 
+[   1.656][d][ytdl_hook] Running: yt-dlp --no-warnings -J --flat-playlist --sub-format ass/srt/best --format bestvideo+bestaudio/best --all-subs --no-playlist -- https://www.youtube.com/watch?v=bEJ0_TVXh-I 
+[   1.656][d][cplayer] Run command: subprocess, flags=64, args=[args="yt-dlp,--no-warnings,-J,--flat-playlist,--sub-format,ass/srt/best,--format,bestvideo+bestaudio/best,--all-subs,--no-playlist,--,https://www.youtube.com/watch?v=bEJ0_TVXh-I", playback_only="yes", capture_size="67108864", capture_stdout="yes", capture_stderr="yes", detach="no", env="", stdin_data="", passthrough_stdin="no"]
+[   5.869][v][ytdl_hook] Found youtube-dl with path yt-dlp in PATH 
+[   5.887][v][ytdl_hook] youtube-dl succeeded! 
+[   5.887][d][ytdl_hook] ytdl parsing took 0.02 seconds 
+[   5.887][d][ytdl_hook] No fragments to join into EDL 
+[   5.887][d][ytdl_hook] No fragments to join into EDL 
+[   5.887][v][cplayer] Set property: file-local-options/user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" -> 1
+[   5.887][v][ytdl_hook] format selection: youtube-dl (separate) 
+[   5.887][d][ytdl_hook] streamurl: edl://!new_stream;!no_clip;!no_chapters;%932%https://rr2---sn-0ofpgxq3x-ocvz.googlevideo.com/videoplayback?expire=1702604403&ei=E1p7ZZfLJ7zwvdIP6Ie_-Ao&ip=102.212.239.33&id=o-AFiuohmuY9Dte_Ple847q87t9s7i6JrTAzehAtbaFRuq&itag=251&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=6M&mm=31%2C29&mn=sn-0ofpgxq3x-ocvz%2Csn-hc57enee&ms=au%2Crdu&mv=m&mvi=2&pl=24&initcwndbps=421250&spc=UWF9f3EnpA4U1m4dXBJrWEz9vbGvV3E&vprv=1&svpuc=1&mime=audio%2Fwebm&gir=yes&clen=17138864&dur=1022.961&lmt=1702486342751253&mt=1702582422&fvip=3&keepalive=yes&fexp=24007246&c=ANDROID&txp=5532434&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRQIhAJ_1WzLDaCP855U1C5kk2EKuENdJ04u98_Ki38frK_YHAiBiKOLkaYv9bGg6kfFEvr20Jk1VcpS5zq4O18cEovN8WA%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AAO5W4owRQIgO5OKc1gmgedsFjhnzb63XNUYmvJ7p417MvdftEj27RICIQC3nDEhWg57lDi-4HKIsG6SSiVUNaxW49eMpn61ISbyCw%3D%3D;!new_stream;!no_clip;!no_chapters;%982%https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1702604403/ei/E1p7Ze74DZvpxN8Pt8G6qAE/ip/102.212.239.33/id/6c4274fd355787e2/itag/616/source/youtube/requiressl/yes/ratebypass/yes/pfa/1/wft/1/sgovp/clen%3D347203051%3Bdur%3D1022.938%3Bgir%3Dyes%3Bitag%3D356%3Blmt%3D1702489365427813/rqh/1/hls_chunk_host/rr2---sn-0ofpgxq3x-ocvz.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/mh/6M/mm/31,29/mn/sn-0ofpgxq3x-ocvz,sn-hc57enee/ms/au,rdu/mv/m/mvi/2/pl/24/initcwndbps/421250/vprv/1/playlist_type/DVR/dover/13/txp/5532434/mt/1702582422/fvip/3/short_key/1/keepalive/yes/fexp/24007246/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,pfa,wft,sgovp,rqh,xpc,vprv,playlist_type/sig/AJfQdSswRgIhAM8f6WNgOns7xhRueV-PbU2JtpHDeMc2x-vqzJOPOooHAiEA7CDR4Ln7-OjnG1-h_vwpSk5SLLPL-vH0OcWtQ_ATEoo%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl,initcwndbps/lsig/AAO5W4owRQIhANal_LXQVTnHBjyggKOIq2gR7qvm0dANzQ8GEmS-4FA_AiAAq1nRU3lOmCNc8oWdfG3xwSOpO8flZDjHjhxKHVRn4w%3D%3D/playlist/index.m3u8;!global_tags,channel_url=%56%https://www.youtube.com/channel/UCLXo7UDZvByw2ixzpQCufnA,ytdl_description=%3039%We interviewed students and teachers on how schools should handle the rise of the chatbots.
+[   5.887][d][ytdl_hook] 
+[   5.887][d][ytdl_hook] Subscribe to our channel! http://goo.gl/0bsAjO
+[   5.887][d][ytdl_hook] 
+[   5.887][d][ytdl_hook] For a year now, students have had access to AI chatbots, otherwise known as Large Language Models, that can write at a high-school level and answer specific and diverse questions related to many school subjects. OpenAI's ChatGPT kicked off a race among tech companies to release their own chatbots and integrate them into existing consumer products. 
+[   5.887][d][ytdl_hook] 
+[   5.887][d][ytdl_hook] The most advanced language models, like GPT-4 and Claude2 are kept behind paywalls. They offer more nuanced answers and make fewer mistakes but because reliability is not guaranteed, many businesses cannot yet deploy these systems. That means a significant portion of chatbot use cases are for low-stakes applications, like school work. 
+[   5.887][d][ytdl_hook] 
+[   5.887][d][ytdl_hook] This presents a major challenge to educators, who now need to rethink their curriculum to either incorporate chatbot use or to attempt to deter it. In this video, we hear from students and teachers about how they're thinking through the problem, and review research in the science of learning to understand how the "fluency" of a chatbot experience could disrupt the learning process that we go to school for.
+[   5.887][d][ytdl_hook] 
+[   5.887][d][ytdl_hook] 00:00 Intro
+[   5.887][d][ytdl_hook] 02:28 Path 1: Banning AI
+[   5.887][d][ytdl_hook] 06:03 Path 2: Allowing AI
+[   5.887][d][ytdl_hook] 09:52 The problem with the calculator analogy
+[   5.887][d][ytdl_hook] 11:18 The science of learning
+[   5.887][d][ytdl_hook] 15:44 Conclusion
+[   5.887][d][ytdl_hook] 
+[   5.887][d][ytdl_hook] Sources: 
+[   5.887][d][ytdl_hook] https://www.similarweb.com/blog/insights/ai-news/chatgpt-comeback/ 
+[   5.887][d][ytdl_hook] https://help.openai.com/en/articles/8313351-how-can-educators-respond-to-students-presenting-ai-generated-content-as-their-own
+[   5.888][d][ytdl_hook] https://hai.stanford.edu/news/ai-detectors-biased-against-non-native-english-writers 
+[   5.888][d][ytdl_hook] https://www.ibo.org/news/news-about-the-ib/statement-from-the-ib-about-chatgpt-and-artificial-intelligence-in-assessment-and-education/ 
+[   5.888][d][ytdl_hook] "Rethinking GPS navigation: creating cognitive maps through auditory clues" https://www.nature.com/articles/s41598-021-87148-4 
+[   5.888][d][ytdl_hook] "Habitual use of GPS negatively impacts spatial memory during self-guided navigation" https://www.nature.com/articles/s41598-020-62877-0 
+[   5.888][d][ytdl_hook] "Measuring actual learning versus feeling of learning in response to being actively engaged in the classroom" https://www.pnas.org/doi/10.1073/pnas.1821936116
+[   5.888][d][ytdl_hook] https://wac.colostate.edu/repository/collections/ai-text-generators-and-teaching-writing-starting-points-for-inquiry/ 
+[   5.888][d][ytdl_hook] 
+[   5.888][d][ytdl_hook] AI-text-detection error rates:
+[   5.888][d][ytdl_hook] Turnitin https://www.turnitin.com/products/features/ai-writing-detection
+[   5.888][d][ytdl_hook] Originality.ai https://originality.ai/blog/ai-content-detection-accuracy
+[   5.888][d][ytdl_hook] GPTZero https://gptzero.me/faq
+[   5.888][d][ytdl_hook] Sapling.ai https://sapling.ai/ai-content-detector
+[   5.888][d][ytdl_hook] Compilatio https://support.compilatio.net/hc/en-us/articles/17408769118993-How-reliable-is-the-Compilatio-AI-detector-
+[   5.888][d][ytdl_hook] 
+[   5.888][d][ytdl_hook] Vox.com is a news website that helps you cut through the noise and understand what's really driving the events in the headlines. Check out http://www.vox.com.
+[   5.888][d][ytdl_hook] 
+[   5.888][d][ytdl_hook] Watch our full video catalog: http://goo.gl/IZONyE
+[   5.888][d][ytdl_hook] Follow Vox on Facebook: http://goo.gl/U2g06o
+[   5.888][d][ytdl_hook] Or Twitter: http://goo.gl/XFrZ5H,uploader=%3%Vox 
+[   5.888][v][cplayer] Set property: stream-open-filename="edl://!new_stream;!no_clip;!no_chapters;%932%https://rr2---sn-0ofpgxq3x-ocvz.googlevideo.com/videoplayback?expire=1702604403&ei=E1p7ZZfLJ7zwvdIP6Ie_-Ao&ip=102.212.239.33&id=o-AFiuohmuY9Dte_Ple847q87t9s7i6JrTAzehAtbaFRuq&itag=251&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=6M&mm=31%2C29&mn=sn-0ofpgxq3x-ocvz%2Csn-hc57enee&ms=au%2Crdu&mv=m&mvi=2&pl=24&initcwndbps=421250&spc=UWF9f3EnpA4U1m4dXBJrWEz9vbGvV3E&vprv=1&svpuc=1&mime=audio%2Fwebm&gir=yes&clen=17138864&dur=1022.961&lmt=1702486342751253&mt=1702582422&fvip=3&keepalive=yes&fexp=24007246&c=ANDROID&txp=5532434&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRQIhAJ_1WzLDaCP855U1C5kk2EKuENdJ04u98_Ki38frK_YHAiBiKOLkaYv9bGg6kfFEvr20Jk1VcpS5zq4O18cEovN8WA%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AAO5W4owRQIgO5OKc1gmgedsFjhnzb63XNUYmvJ7p417MvdftEj27RICIQC3nDEhWg57lDi-4HKIsG6SSiVUNaxW49eMpn61ISbyCw%3D%3D;!new_stream;!no_clip;!no_chapters;%982%https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1702604403/ei/E1p7Ze74DZvpxN8Pt8G6qAE/ip/102.212.239.33/id/6c4274fd355787e2/itag/616/source/youtube/requiressl/yes/ratebypass/yes/pfa/1/wft/1/sgovp/clen%3D347203051%3Bdur%3D1022.938%3Bgir%3Dyes%3Bitag%3D356%3Blmt%3D1702489365427813/rqh/1/hls_chunk_host/rr2---sn-0ofpgxq3x-ocvz.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/mh/6M/mm/31,29/mn/sn-0ofpgxq3x-ocvz,sn-hc57enee/ms/au,rdu/mv/m/mvi/2/pl/24/initcwndbps/421250/vprv/1/playlist_type/DVR/dover/13/txp/5532434/mt/1702582422/fvip/3/short_key/1/keepalive/yes/fexp/24007246/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,pfa,wft,sgovp,rqh,xpc,vprv,playlist_type/sig/AJfQdSswRgIhAM8f6WNgOns7xhRueV-PbU2JtpHDeMc2x-vqzJOPOooHAiEA7CDR4Ln7-OjnG1-h_vwpSk5SLLPL-vH0OcWtQ_ATEoo%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl,initcwndbps/lsig/AAO5W4owRQIhANal_LXQVTnHBjyggKOIq2gR7qvm0dANzQ8GEmS-4FA_AiAAq1nRU3lOmCNc8oWdfG3xwSOpO8flZDjHjhxKHVRn4w%3D%3D/playlist/index.m3u8;!global_tags,channel_url=%56%https://www.youtube.com/channel/UCLXo7UDZvByw2ixzpQCufnA,ytdl_description=%3039%We interviewed students and teachers on how schools should handle the rise of the chatbots.\n\nSubscribe to our channel! http://goo.gl/0bsAjO\n\nFor a year now, students have had access to AI chatbots, otherwise known as Large Language Models, that can write at a high-school level and answer specific and diverse questions related to many school subjects. OpenAI's ChatGPT kicked off a race among tech companies to release their own chatbots and integrate them into existing consumer products. \n\nThe most advanced language models, like GPT-4 and Claude2 are kept behind paywalls. They offer more nuanced answers and make fewer mistakes but because reliability is not guaranteed, many businesses cannot yet deploy these systems. That means a significant portion of chatbot use cases are for low-stakes applications, like school work. \n\nThis presents a major challenge to educators, who now need to rethink their curriculum to either incorporate chatbot use or to attempt to deter it. In this video, we hear from students and teachers about how they're thinking through the problem, and review research in the science of learning to understand how the \"fluency\" of a chatbot experience could disrupt the learning process that we go to school for.\n\n00:00 Intro\n02:28 Path 1: Banning AI\n06:03 Path 2: Allowing AI\n09:52 The problem with the calculator analogy\n11:18 The science of learning\n15:44 Conclusion\n\nSources: \nhttps://www.similarweb.com/blog/insights/ai-news/chatgpt-comeback/ \nhttps://help.openai.com/en/articles/8313351-how-can-educators-respond-to-students-presenting-ai-generated-content-as-their-own\nhttps://hai.stanford.edu/news/ai-detectors-biased-against-non-native-english-writers \nhttps://www.ibo.org/news/news-about-the-ib/statement-from-the-ib-about-chatgpt-and-artificial-intelligence-in-assessment-and-education/ \n\"Rethinking GPS navigation: creating cognitive maps through auditory clues\" https://www.nature.com/articles/s41598-021-87148-4 \n\"Habitual use of GPS negatively impacts spatial memory during self-guided navigation\" https://www.nature.com/articles/s41598-020-62877-0 \n\"Measuring actual learning versus feeling of learning in response to being actively engaged in the classroom\" https://www.pnas.org/doi/10.1073/pnas.1821936116\nhttps://wac.colostate.edu/repository/collections/ai-text-generators-and-teaching-writing-starting-points-for-inquiry/ \n\nAI-text-detection error rates:\nTurnitin https://www.turnitin.com/products/features/ai-writing-detection\nOriginality.ai https://originality.ai/blog/ai-content-detection-accuracy\nGPTZero https://gptzero.me/faq\nSapling.ai https://sapling.ai/ai-content-detector\nCompilatio https://support.compilatio.net/hc/en-us/articles/17408769118993-How-reliable-is-the-Compilatio-AI-detector-\n\nVox.com is a news website that helps you cut through the noise and understand what's really driving the events in the headlines. Check out http://www.vox.com.\n\nWatch our full video catalog: http://goo.gl/IZONyE\nFollow Vox on Facebook: http://goo.gl/U2g06o\nOr Twitter: http://goo.gl/XFrZ5H,uploader=%3%Vox" -> 1
+[   5.888][v][cplayer] Set property: file-local-options/force-media-title="AI can do your homework. Now what?" -> 1
+[   5.888][v][ytdl_hook] adding subtitle [en] 
+[   5.888][d][cplayer] Run command: sub-add, flags=64, args=[url="edl://!no_clip;!delay_open,media_type=sub,codec=webvtt;%326%https://www.youtube.com/api/timedtext?v=bEJ0_TVXh-I&ei=Elp7ZbXaE4rfvdIPstiCoAg&caps=asr&opi=112496729&xoaf=5&hl=en&ip=0.0.0.0&ipbits=0&expire=1702608002&sparams=ip%2Cipbits%2Cexpire%2Cv%2Cei%2Ccaps%2Copi%2Cxoaf&signature=43F2DF1C9AFDCEE9B287340C02F39D58F377A4CD.A617ACC5336C70AD3AC96CCF6E2A15E24830853F&key=yt8&lang=en&fmt=vtt", flags="auto", title="English", lang="en"]
+[   5.888][v][edl] Opening edl://!no_clip;!delay_open,media_type=sub,codec=webvtt;%326%https://www.youtube.com/api/timedtext?v=bEJ0_TVXh-I&ei=Elp7ZbXaE4rfvdIPstiCoAg&caps=asr&opi=112496729&xoaf=5&hl=en&ip=0.0.0.0&ipbits=0&expire=1702608002&sparams=ip%2Cipbits%2Cexpire%2Cv%2Cei%2Ccaps%2Copi%2Cxoaf&signature=43F2DF1C9AFDCEE9B287340C02F39D58F377A4CD.A617ACC5336C70AD3AC96CCF6E2A15E24830853F&key=yt8&lang=en&fmt=vtt
+[   5.888][d][edl] resize stream to 131072 bytes, drop 0 bytes
+[   5.888][d][edl] Stream opened successfully.
+[   5.888][v][demux] Trying demuxers for level=request.
+[   5.888][d][demux] Trying demuxer: edl (force-level: request)
+[   5.888][v][demux] Detected file format: Edit decision list
+[   5.888][v][demux] Stream is not seekable.
+[   5.888][d][demux] Trying demuxer: timeline (force-level: force)
+[   5.888][v][timeline] Timeline segments:
+[   5.888][v][timeline]   0:     0.000000 -    -1.000000 [    0.000000] ()
+[   5.888][v][timeline]   source 0:'https://www.youtube.com/api/timedtext?v=bEJ0_TVXh-I&ei=Elp7ZbXaE4rfvdIPstiCoAg&caps=asr&opi=112496729&xoaf=5&hl=en&ip=0.0.0.0&ipbits=0&expire=1702608002&sparams=ip%2Cipbits%2Cexpire%2Cv%2Cei%2Ccaps%2Copi%2Cxoaf&signature=43F2DF1C9AFDCEE9B287340C02F39D58F377A4CD.A617ACC5336C70AD3AC96CCF6E2A15E24830853F&key=yt8&lang=en&fmt=vtt'
+[   5.888][v][timeline] Total duration: 0.000000
+[   5.888][v][demux] Detected file format: multi/unknown (timeline segments)
+[   5.888][d][ytdl_hook] Adding pre-parsed chapters 
+[   5.888][v][cplayer] Set property: file-local-options/stream-lavf-o={} -> 1
+[   5.888][d][ytdl_hook] script running time: 0.02 seconds 
+[   5.889][v][edl] Opening edl://!new_stream;!no_clip;!no_chapters;%932%https://rr2---sn-0ofpgxq3x-ocvz.googlevideo.com/videoplayback?expire=1702604403&ei=E1p7ZZfLJ7zwvdIP6Ie_-Ao&ip=102.212.239.33&id=o-AFiuohmuY9Dte_Ple847q87t9s7i6JrTAzehAtbaFRuq&itag=251&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=6M&mm=31%2C29&mn=sn-0ofpgxq3x-ocvz%2Csn-hc57enee&ms=au%2Crdu&mv=m&mvi=2&pl=24&initcwndbps=421250&spc=UWF9f3EnpA4U1m4dXBJrWEz9vbGvV3E&vprv=1&svpuc=1&mime=audio%2Fwebm&gir=yes&clen=17138864&dur=1022.961&lmt=1702486342751253&mt=1702582422&fvip=3&keepalive=yes&fexp=24007246&c=ANDROID&txp=5532434&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRQIhAJ_1WzLDaCP855U1C5kk2EKuENdJ04u98_Ki38frK_YHAiBiKOLkaYv9bGg6kfFEvr20Jk1VcpS5zq4O18cEovN8WA%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AAO5W4owRQIgO5OKc1gmgedsFjhnzb63XNUYmvJ7p417MvdftEj27RICIQC3nDEhWg57lDi-4HKIsG6SSiVUNaxW49eMpn61ISbyCw%3D%3D;!new_stream;!no_clip;!no_chapters;%982%https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1702604403/ei/E1p7Ze74DZvpxN8Pt8G6qAE/ip/102.212.239.33/id/6c4274fd355787e2/itag/616/source/youtube/requiressl/yes/ratebypass/yes/pfa/1/wft/1/sgovp/clen%3D347203051%3Bdur%3D1022.938%3Bgir%3Dyes%3Bitag%3D356%3Blmt%3D1702489365427813/rqh/1/hls_chunk_host/rr2---sn-0ofpgxq3x-ocvz.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/mh/6M/mm/31,29/mn/sn-0ofpgxq3x-ocvz,sn-hc57enee/ms/au,rdu/mv/m/mvi/2/pl/24/initcwndbps/421250/vprv/1/playlist_type/DVR/dover/13/txp/5532434/mt/1702582422/fvip/3/short_key/1/keepalive/yes/fexp/24007246/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,pfa,wft,sgovp,rqh,xpc,vprv,playlist_type/sig/AJfQdSswRgIhAM8f6WNgOns7xhRueV-PbU2JtpHDeMc2x-vqzJOPOooHAiEA7CDR4Ln7-OjnG1-h_vwpSk5SLLPL-vH0OcWtQ_ATEoo%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl,initcwndbps/lsig/AAO5W4owRQIhANal_LXQVTnHBjyggKOIq2gR7qvm0dANzQ8GEmS-4FA_AiAAq1nRU3lOmCNc8oWdfG3xwSOpO8flZDjHjhxKHVRn4w%3D%3D/playlist/index.m3u8;!global_tags,channel_url=%56%https://www.youtube.com/channel/UCLXo7UDZvByw2ixzpQCufnA,ytdl_description=%3039%We interviewed students and teachers on how schools should handle the rise of the chatbots.
+[   5.889][v][edl] 
+[   5.889][v][edl] Subscribe to our channel! http://goo.gl/0bsAjO
+[   5.889][v][edl] 
+[   5.889][v][edl] For a year now, students have had access to AI chatbots, otherwise known as Large Language Models, that can write at a high-school level and answer specific and diverse questions related to many school subjects. OpenAI's ChatGPT kicked off a race among tech companies to release their own chatbots and integrate them into existing consumer products. 
+[   5.889][v][edl] 
+[   5.889][v][edl] The most advanced language models, like GPT-4 and Claude2 are kept behind paywalls. They offer more nuanced answers and make fewer mistakes but because reliability is not guaranteed, many businesses cannot yet deploy these systems. That means a significant portion of chatbot use cases are for low-stakes applications, like school work. 
+[   5.889][v][edl] 
+[   5.889][v][edl] This presents a major challenge to educators, who now need to rethink their curriculum to either incorporate chatbot use or to attempt to deter it. In this video, we hear from students and teachers about how they're thinking through the problem, and review research in the science of learning to understand how the "fluency" of a chatbot experience could disrupt the learning process that we go to school for.
+[   5.889][v][edl] 
+[   5.889][v][edl] 00:00 Intro
+[   5.889][v][edl] 02:28 Path 1: Banning AI
+[   5.889][v][edl] 06:03 Path 2: Allowing AI
+[   5.889][v][edl] 09:52 The problem with the calculator analogy
+[   5.889][v][edl] 11:18 The science of learning
+[   5.889][v][edl] 15:44 Conclusion
+[   5.889][v][edl] 
+[   5.889][v][edl] Sources: 
+[   5.889][v][edl] https://www.similarweb.com/blog/insights/ai-news/chatgpt-comeback/ 
+[   5.889][v][edl] https://help.openai.com/en/articles/8313351-how-can-educators-respond-to-students-presenting-ai-generated-content-as-their-own
+[   5.889][v][edl] https://hai.stanford.edu/news/ai-detectors-biased-against-non-native-english-writers 
+[   5.889][v][edl] https://www.ibo.org/news/news-about-the-ib/statement-from-the-ib-about-chatgpt-and-artificial-intelligence-in-assessment-and-education/ 
+[   5.889][v][edl] "Rethinking GPS navigation: creating cognitive maps through auditory clues" https://www.nature.com/articles/s41598-021-87148-4 
+[   5.889][v][edl] "Habitual use of GPS negatively impacts spatial memory during self-guided navigation" https://www.nature.com/articles/s41598-020-62877-0 
+[   5.889][v][edl] "Measuring actual learning versus feeling of learning in response to being actively engaged in the classroom" https://www.pnas.org/doi/10.1073/pnas.1821936116
+[   5.889][v][edl] https://wac.colostate.edu/repository/collections/ai-text-generators-and-teaching-writing-starting-points-for-inquiry/ 
+[   5.889][v][edl] 
+[   5.889][v][edl] AI-text-detection error rates:
+[   5.889][v][edl] Turnitin https://www.turnitin.com/products/features/ai-writing-detection
+[   5.889][v][edl] Originality.ai https://originality.ai/blog/ai-content-detection-accuracy
+[   5.889][v][edl] GPTZero https://gptzero.me/faq
+[   5.889][v][edl] Sapling.ai https://sapling.ai/ai-content-detector
+[   5.889][v][edl] Compilatio https://support.compilatio.net/hc/en-us/articles/17408769118993-How-reliable-is-the-Compilatio-AI-detector-
+[   5.889][v][edl] 
+[   5.889][v][edl] Vox.com is a news website that helps you cut through the noise and understand what's really driving the events in the headlines. Check out http://www.vox.com.
+[   5.889][v][edl] 
+[   5.889][v][edl] Watch our full video catalog: http://goo.gl/IZONyE
+[   5.889][v][edl] Follow Vox on Facebook: http://goo.gl/U2g06o
+[   5.889][v][edl] Or Twitter: http://goo.gl/XFrZ5H,uploader=%3%Vox
+[   5.889][d][edl] resize stream to 131072 bytes, drop 0 bytes
+[   5.889][d][edl] Stream opened successfully.
+[   5.889][v][demux] Trying demuxers for level=request.
+[   5.889][d][demux] Trying demuxer: edl (force-level: request)
+[   5.889][v][demux] Detected file format: Edit decision list
+[   5.889][v][demux] Stream is not seekable.
+[   5.889][v][demux] Opening segment 0...
+[   5.889][v][ffmpeg] Opening https://rr2---sn-0ofpgxq3x-ocvz.googlevideo.com/videoplayback?expire=1702604403&ei=E1p7ZZfLJ7zwvdIP6Ie_-Ao&ip=102.212.239.33&id=o-AFiuohmuY9Dte_Ple847q87t9s7i6JrTAzehAtbaFRuq&itag=251&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=6M&mm=31%2C29&mn=sn-0ofpgxq3x-ocvz%2Csn-hc57enee&ms=au%2Crdu&mv=m&mvi=2&pl=24&initcwndbps=421250&spc=UWF9f3EnpA4U1m4dXBJrWEz9vbGvV3E&vprv=1&svpuc=1&mime=audio%2Fwebm&gir=yes&clen=17138864&dur=1022.961&lmt=1702486342751253&mt=1702582422&fvip=3&keepalive=yes&fexp=24007246&c=ANDROID&txp=5532434&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRQIhAJ_1WzLDaCP855U1C5kk2EKuENdJ04u98_Ki38frK_YHAiBiKOLkaYv9bGg6kfFEvr20Jk1VcpS5zq4O18cEovN8WA%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AAO5W4owRQIgO5OKc1gmgedsFjhnzb63XNUYmvJ7p417MvdftEj27RICIQC3nDEhWg57lDi-4HKIsG6SSiVUNaxW49eMpn61ISbyCw%3D%3D
+[   5.899][d][ffmpeg] tcp: Starting connection attempt to 102.211.144.41 port 443
+[   5.902][d][ffmpeg] tcp: Successfully connected to 102.211.144.41 port 443
+[   5.963][d][ffmpeg] resize stream to 131072 bytes, drop 0 bytes
+[   5.963][v][ffmpeg] Mime-type: 'audio/webm'
+[   5.963][d][ffmpeg] Stream opened successfully.
+[   5.963][v][demux] Trying demuxers for level=normal.
+[   5.963][d][demux] Trying demuxer: disc (force-level: normal)
+[   5.963][d][demux] Trying demuxer: edl (force-level: normal)
+[   6.282][d][demux] Trying demuxer: cue (force-level: normal)
+[   6.282][d][demux] Trying demuxer: rawaudio (force-level: normal)
+[   6.282][d][demux] Trying demuxer: rawvideo (force-level: normal)
+[   6.282][d][demux] Trying demuxer: mkv (force-level: normal)
+[   6.282][d][mkv] Found the head...
+[   6.282][d][mkv] + a segment...
+[   6.282][d][mkv] Parsing seek head...
+[   6.282][d][mkv] |+ segment information...
+[   6.282][d][mkv] float 1022961.000000
+[   6.282][d][mkv] | + muxing app: google/video-file
+[   6.282][d][mkv] | + writing app: google/video-file
+[   6.282][d][mkv] | + timecode scale: 1000000
+[   6.282][d][mkv] | + duration: 1022.961s
+[   6.282][d][mkv] |+ segment tracks...
+[   6.282][d][mkv] float 48000.000000
+[   6.282][d][mkv] | + a track...
+[   6.282][d][mkv] |  + Track number: 1
+[   6.282][d][mkv] |  + Track type: Audio
+[   6.282][d][mkv] |  + Audio track
+[   6.282][d][mkv] |   + Sampling frequency: 48000.000000
+[   6.282][d][mkv] |   + Bit depth: 16
+[   6.282][d][mkv] |   + Channels: 2
+[   6.282][d][mkv] |  + Codec ID: A_OPUS
+[   6.282][d][mkv] |  + CodecPrivate, length 19
+[   6.282][d][mkv] |  + Language: eng
+[   6.282][v][mkv] Parsing cues...
+[   6.282][d][mkv] |+ found cluster
+[   6.282][v][mkv] All headers are parsed!
+[   6.285][v][demux] Detected file format: Matroska
+[   6.285][v][demux] Opening segment 0...
+[   6.285][v][ffmpeg] Opening https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1702604403/ei/E1p7Ze74DZvpxN8Pt8G6qAE/ip/102.212.239.33/id/6c4274fd355787e2/itag/616/source/youtube/requiressl/yes/ratebypass/yes/pfa/1/wft/1/sgovp/clen%3D347203051%3Bdur%3D1022.938%3Bgir%3Dyes%3Bitag%3D356%3Blmt%3D1702489365427813/rqh/1/hls_chunk_host/rr2---sn-0ofpgxq3x-ocvz.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/mh/6M/mm/31,29/mn/sn-0ofpgxq3x-ocvz,sn-hc57enee/ms/au,rdu/mv/m/mvi/2/pl/24/initcwndbps/421250/vprv/1/playlist_type/DVR/dover/13/txp/5532434/mt/1702582422/fvip/3/short_key/1/keepalive/yes/fexp/24007246/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,pfa,wft,sgovp,rqh,xpc,vprv,playlist_type/sig/AJfQdSswRgIhAM8f6WNgOns7xhRueV-PbU2JtpHDeMc2x-vqzJOPOooHAiEA7CDR4Ln7-OjnG1-h_vwpSk5SLLPL-vH0OcWtQ_ATEoo%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl,initcwndbps/lsig/AAO5W4owRQIhANal_LXQVTnHBjyggKOIq2gR7qvm0dANzQ8GEmS-4FA_AiAAq1nRU3lOmCNc8oWdfG3xwSOpO8flZDjHjhxKHVRn4w%3D%3D/playlist/index.m3u8
+[  11.600][d][ffmpeg] tcp: Starting connection attempt to 172.217.170.206 port 443
+[  11.608][d][ffmpeg] tcp: Successfully connected to 172.217.170.206 port 443
+[  12.713][d][ffmpeg] resize stream to 131072 bytes, drop 0 bytes
+[  12.713][v][ffmpeg] Mime-type: 'application/vnd.apple.mpegurl'
+[  12.713][d][ffmpeg] Stream opened successfully.
+[  12.713][v][demux] Trying demuxers for level=normal.
+[  12.713][d][demux] Trying demuxer: disc (force-level: normal)
+[  12.713][d][demux] Trying demuxer: edl (force-level: normal)
+[  12.713][d][demux] Trying demuxer: cue (force-level: normal)
+[  12.713][d][demux] Trying demuxer: rawaudio (force-level: normal)
+[  12.713][d][demux] Trying demuxer: rawvideo (force-level: normal)
+[  12.713][d][demux] Trying demuxer: mkv (force-level: normal)
+[  12.713][d][demux] Trying demuxer: libarchive (force-level: normal)
+[  12.713][d][demux] Trying demuxer: lavf (force-level: normal)
+[  12.719][v][lavf] Found 'hls' at score=100 size=2048.
+[  12.728][d][ffmpeg] tcp: Starting connection attempt to 172.217.170.206 port 443
+[  12.737][d][ffmpeg] tcp: Successfully connected to 172.217.170.206 port 443
+[  13.792][v][ffmpeg/demuxer] hls: Skip ('#EXT-X-VERSION:6')
+[  14.314][d][ffmpeg/demuxer] hls: HLS request for url 'https://rr2---sn-0ofpgxq3x-ocvz.googlevideo.com/videoplayback/id/6c4274fd355787e2/itag/616/source/youtube/expire/1702604403/ei/E1p7Ze74DZvpxN8Pt8G6qAE/ip/102.212.239.33/requiressl/yes/ratebypass/yes/pfa/1/wft/1/sgovp/clen%3D347203051%3Bdur%3D1022.938%3Bgir%3Dyes%3Bitag%3D356%3Blmt%3D1702489365427813/rqh/1/hls_chunk_host/rr2---sn-0ofpgxq3x-ocvz.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/mh/6M/mm/31,29/mn/sn-0ofpgxq3x-ocvz,sn-hc57enee/ms/au,rdu/mv/m/mvi/2/pl/24/initcwndbps/421250/vprv/1/playlist_type/DVR/txp/5532434/mt/1702582422/fvip/3/keepalive/yes/fexp/24007246/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,pfa,wft,sgovp,rqh,xpc,vprv,playlist_type/sig/AJfQdSswRgIhAM8f6WNgOns7xhRueV-PbU2JtpHDeMc2x-vqzJOPOooHAiEA7CDR4Ln7-OjnG1-h_vwpSk5SLLPL-vH0OcWtQ_ATEoo%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl,initcwndbps/lsig/AAO5W4owRQIhANal_LXQVTnHBjyggKOIq2gR7qvm0dANzQ8GEmS-4FA_AiAAq1nRU3lOmCNc8oWdfG3xwSOpO8flZDjHjhxKHVRn4w%3D%3D/playlist/index.m3u8/govp/slices%3D0-2118477/gosq/0?is=1&file=seg.ts', offset 0, playlist 0
+[  14.314][v][ffmpeg/demuxer] hls: Opening 'https://rr2---sn-0ofpgxq3x-ocvz.googlevideo.com/videoplayback/id/6c4274fd355787e2/itag/616/source/youtube/expire/1702604403/ei/E1p7Ze74DZvpxN8Pt8G6qAE/ip/102.212.239.33/requiressl/yes/ratebypass/yes/pfa/1/wft/1/sgovp/clen%3D347203051%3Bdur%3D1022.938%3Bgir%3Dyes%3Bitag%3D356%3Blmt%3D1702489365427813/rqh/1/hls_chunk_host/rr2---sn-0ofpgxq3x-ocvz.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/mh/6M/mm/31,29/mn/sn-0ofpgxq3x-ocvz,sn-hc57enee/ms/au,rdu/mv/m/mvi/2/pl/24/initcwndbps/421250/vprv/1/playlist_type/DVR/txp/5532434/mt/1702582422/fvip/3/keepalive/yes/fexp/24007246/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,pfa,wft,sgovp,rqh,xpc,vprv,playlist_type/sig/AJfQdSswRgIhAM8f6WNgOns7xhRueV-PbU2JtpHDeMc2x-vqzJOPOooHAiEA7CDR4Ln7-OjnG1-h_vwpSk5SLLPL-vH0OcWtQ_ATEoo%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl,initcwndbps/lsig/AAO5W4owRQIhANal_LXQVTnHBjyggKOIq2gR7qvm0dANzQ8GEmS-4FA_AiAAq1nRU3lOmCNc8oWdfG3xwSOpO8flZDjHjhxKHVRn4w%3D%3D/playlist/index.m3u8/govp/slices%3D0-2118477/gosq/0?is=1&file=seg.ts' for reading
+[  14.321][d][ffmpeg] tcp: Starting connection attempt to 102.211.144.41 port 443
+[  14.324][d][ffmpeg] tcp: Successfully connected to 102.211.144.41 port 443
+[  14.428][d][ffmpeg] AVIOContext: Statistics: 712 bytes read, 0 seeks
+[  14.428][d][ffmpeg/demuxer] hls: HLS request for url 'https://rr2---sn-0ofpgxq3x-ocvz.googlevideo.com/videoplayback/id/6c4274fd355787e2/itag/616/source/youtube/expire/1702604403/ei/E1p7Ze74DZvpxN8Pt8G6qAE/ip/102.212.239.33/requiressl/yes/ratebypass/yes/pfa/1/wft/1/sgovp/clen%3D347203051%3Bdur%3D1022.938%3Bgir%3Dyes%3Bitag%3D356%3Blmt%3D1702489365427813/rqh/1/hls_chunk_host/rr2---sn-0ofpgxq3x-ocvz.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/mh/6M/mm/31,29/mn/sn-0ofpgxq3x-ocvz,sn-hc57enee/ms/au,rdu/mv/m/mvi/2/pl/24/initcwndbps/421250/vprv/1/playlist_type/DVR/txp/5532434/mt/1702582422/fvip/3/keepalive/yes/fexp/24007246/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,pfa,wft,sgovp,rqh,xpc,vprv,playlist_type/sig/AJfQdSswRgIhAM8f6WNgOns7xhRueV-PbU2JtpHDeMc2x-vqzJOPOooHAiEA7CDR4Ln7-OjnG1-h_vwpSk5SLLPL-vH0OcWtQ_ATEoo%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl,initcwndbps/lsig/AAO5W4owRQIhANal_LXQVTnHBjyggKOIq2gR7qvm0dANzQ8GEmS-4FA_AiAAq1nRU3lOmCNc8oWdfG3xwSOpO8flZDjHjhxKHVRn4w%3D%3D/playlist/index.m3u8/govp/slices%3D0-2118477/gosq/0/file/seg.ts', offset 0, playlist 0
+[  14.428][v][ffmpeg/demuxer] hls: Opening 'https://rr2---sn-0ofpgxq3x-ocvz.googlevideo.com/videoplayback/id/6c4274fd355787e2/itag/616/source/youtube/expire/1702604403/ei/E1p7Ze74DZvpxN8Pt8G6qAE/ip/102.212.239.33/requiressl/yes/ratebypass/yes/pfa/1/wft/1/sgovp/clen%3D347203051%3Bdur%3D1022.938%3Bgir%3Dyes%3Bitag%3D356%3Blmt%3D1702489365427813/rqh/1/hls_chunk_host/rr2---sn-0ofpgxq3x-ocvz.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/mh/6M/mm/31,29/mn/sn-0ofpgxq3x-ocvz,sn-hc57enee/ms/au,rdu/mv/m/mvi/2/pl/24/initcwndbps/421250/vprv/1/playlist_type/DVR/txp/5532434/mt/1702582422/fvip/3/keepalive/yes/fexp/24007246/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,pfa,wft,sgovp,rqh,xpc,vprv,playlist_type/sig/AJfQdSswRgIhAM8f6WNgOns7xhRueV-PbU2JtpHDeMc2x-vqzJOPOooHAiEA7CDR4Ln7-OjnG1-h_vwpSk5SLLPL-vH0OcWtQ_ATEoo%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl,initcwndbps/lsig/AAO5W4owRQIhANal_LXQVTnHBjyggKOIq2gR7qvm0dANzQ8GEmS-4FA_AiAAq1nRU3lOmCNc8oWdfG3xwSOpO8flZDjHjhxKHVRn4w%3D%3D/playlist/index.m3u8/govp/slices%3D0-2118477/gosq/0/file/seg.ts' for reading
+[  14.433][d][ffmpeg] tcp: Starting connection attempt to 102.211.144.41 port 443
+[  14.436][d][ffmpeg] tcp: Successfully connected to 102.211.144.41 port 443
+[  14.457][d][ffmpeg/demuxer] hls: HLS request for url 'https://rr2---sn-0ofpgxq3x-ocvz.googlevideo.com/videoplayback/id/6c4274fd355787e2/itag/616/source/youtube/expire/1702604403/ei/E1p7Ze74DZvpxN8Pt8G6qAE/ip/102.212.239.33/requiressl/yes/ratebypass/yes/pfa/1/wft/1/sgovp/clen%3D347203051%3Bdur%3D1022.938%3Bgir%3Dyes%3Bitag%3D356%3Blmt%3D1702489365427813/rqh/1/hls_chunk_host/rr2---sn-0ofpgxq3x-ocvz.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/mh/6M/mm/31,29/mn/sn-0ofpgxq3x-ocvz,sn-hc57enee/ms/au,rdu/mv/m/mvi/2/pl/24/initcwndbps/421250/vprv/1/playlist_type/DVR/txp/5532434/mt/1702582422/fvip/3/keepalive/yes/fexp/24007246/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,pfa,wft,sgovp,rqh,xpc,vprv,playlist_type/sig/AJfQdSswRgIhAM8f6WNgOns7xhRueV-PbU2JtpHDeMc2x-vqzJOPOooHAiEA7CDR4Ln7-OjnG1-h_vwpSk5SLLPL-vH0OcWtQ_ATEoo%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl,initcwndbps/lsig/AAO5W4owRQIhANal_LXQVTnHBjyggKOIq2gR7qvm0dANzQ8GEmS-4FA_AiAAq1nRU3lOmCNc8oWdfG3xwSOpO8flZDjHjhxKHVRn4w%3D%3D/playlist/index.m3u8/govp/slices%3D0-220,2118478-2755700/gosq/1/file/seg.ts', offset 0, playlist 0
+[  14.457][v][ffmpeg/demuxer] hls: Opening 'https://rr2---sn-0ofpgxq3x-ocvz.googlevideo.com/videoplayback/id/6c4274fd355787e2/itag/616/source/youtube/expire/1702604403/ei/E1p7Ze74DZvpxN8Pt8G6qAE/ip/102.212.239.33/requiressl/yes/ratebypass/yes/pfa/1/wft/1/sgovp/clen%3D347203051%3Bdur%3D1022.938%3Bgir%3Dyes%3Bitag%3D356%3Blmt%3D1702489365427813/rqh/1/hls_chunk_host/rr2---sn-0ofpgxq3x-ocvz.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/mh/6M/mm/31,29/mn/sn-0ofpgxq3x-ocvz,sn-hc57enee/ms/au,rdu/mv/m/mvi/2/pl/24/initcwndbps/421250/vprv/1/playlist_type/DVR/txp/5532434/mt/1702582422/fvip/3/keepalive/yes/fexp/24007246/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,pfa,wft,sgovp,rqh,xpc,vprv,playlist_type/sig/AJfQdSswRgIhAM8f6WNgOns7xhRueV-PbU2JtpHDeMc2x-vqzJOPOooHAiEA7CDR4Ln7-OjnG1-h_vwpSk5SLLPL-vH0OcWtQ_ATEoo%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl,initcwndbps/lsig/AAO5W4owRQIhANal_LXQVTnHBjyggKOIq2gR7qvm0dANzQ8GEmS-4FA_AiAAq1nRU3lOmCNc8oWdfG3xwSOpO8flZDjHjhxKHVRn4w%3D%3D/playlist/index.m3u8/govp/slices%3D0-220,2118478-2755700/gosq/1/file/seg.ts' for reading
+[  14.466][d][ffmpeg] tcp: Starting connection attempt to 102.211.144.41 port 443
+[  14.468][d][ffmpeg] tcp: Successfully connected to 102.211.144.41 port 443
+[  15.579][v][lavf] avformat_find_stream_info() finished after 0 bytes.
+[  15.579][v][demux] Detected file format: hls (libavformat)
+[  15.579][d][demux] Trying demuxer: timeline (force-level: force)
+[  15.579][v][timeline] Timeline segments:
+[  15.579][v][timeline]   0:     0.000000 -  1022.961000 [    0.000000] (0)
+[  15.579][v][timeline]   source 0:'https://rr2---sn-0ofpgxq3x-ocvz.googlevideo.com/videoplayback?expire=1702604403&ei=E1p7ZZfLJ7zwvdIP6Ie_-Ao&ip=102.212.239.33&id=o-AFiuohmuY9Dte_Ple847q87t9s7i6JrTAzehAtbaFRuq&itag=251&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=6M&mm=31%2C29&mn=sn-0ofpgxq3x-ocvz%2Csn-hc57enee&ms=au%2Crdu&mv=m&mvi=2&pl=24&initcwndbps=421250&spc=UWF9f3EnpA4U1m4dXBJrWEz9vbGvV3E&vprv=1&svpuc=1&mime=audio%2Fwebm&gir=yes&clen=17138864&dur=1022.961&lmt=1702486342751253&mt=1702582422&fvip=3&keepalive=yes&fexp=24007246&c=ANDROID&txp=5532434&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRQIhAJ_1WzLDaCP855U1C5kk2EKuENdJ04u98_Ki38frK_YHAiBiKOLkaYv9bGg6kfFEvr20Jk1VcpS5zq4O18cEovN8WA%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AAO5W4owRQIgO5OKc1gmgedsFjhnzb63XNUYmvJ7p417MvdftEj27RICIQC3nDEhWg57lDi-4HKIsG6SSiVUNaxW49eMpn61ISbyCw%3D%3D'
+[  15.579][v][timeline]  --- new parallel stream ---
+[  15.579][v][timeline]   0:     0.000000 -  1022.937998 [    0.000000] (1)
+[  15.579][v][timeline]   source 0:'https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1702604403/ei/E1p7Ze74DZvpxN8Pt8G6qAE/ip/102.212.239.33/id/6c4274fd355787e2/itag/616/source/youtube/requiressl/yes/ratebypass/yes/pfa/1/wft/1/sgovp/clen%3D347203051%3Bdur%3D1022.938%3Bgir%3Dyes%3Bitag%3D356%3Blmt%3D1702489365427813/rqh/1/hls_chunk_host/rr2---sn-0ofpgxq3x-ocvz.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/mh/6M/mm/31,29/mn/sn-0ofpgxq3x-ocvz,sn-hc57enee/ms/au,rdu/mv/m/mvi/2/pl/24/initcwndbps/421250/vprv/1/playlist_type/DVR/dover/13/txp/5532434/mt/1702582422/fvip/3/short_key/1/keepalive/yes/fexp/24007246/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,pfa,wft,sgovp,rqh,xpc,vprv,playlist_type/sig/AJfQdSswRgIhAM8f6WNgOns7xhRueV-PbU2JtpHDeMc2x-vqzJOPOooHAiEA7CDR4Ln7-OjnG1-h_vwpSk5SLLPL-vH0OcWtQ_ATEoo%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl,initcwndbps/lsig/AAO5W4owRQIhANal_LXQVTnHBjyggKOIq2gR7qvm0dANzQ8GEmS-4FA_AiAAq1nRU3lOmCNc8oWdfG3xwSOpO8flZDjHjhxKHVRn4w%3D%3D/playlist/index.m3u8'
+[  15.579][v][timeline] Total duration: 1022.961000
+[  15.579][v][demux] Detected file format: multi/mkv (timeline segments)
+[  15.579][v][cplayer] Opening done: edl://!new_stream;!no_clip;!no_chapters;%932%https://rr2---sn-0ofpgxq3x-ocvz.googlevideo.com/videoplayback?expire=1702604403&ei=E1p7ZZfLJ7zwvdIP6Ie_-Ao&ip=102.212.239.33&id=o-AFiuohmuY9Dte_Ple847q87t9s7i6JrTAzehAtbaFRuq&itag=251&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=6M&mm=31%2C29&mn=sn-0ofpgxq3x-ocvz%2Csn-hc57enee&ms=au%2Crdu&mv=m&mvi=2&pl=24&initcwndbps=421250&spc=UWF9f3EnpA4U1m4dXBJrWEz9vbGvV3E&vprv=1&svpuc=1&mime=audio%2Fwebm&gir=yes&clen=17138864&dur=1022.961&lmt=1702486342751253&mt=1702582422&fvip=3&keepalive=yes&fexp=24007246&c=ANDROID&txp=5532434&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRQIhAJ_1WzLDaCP855U1C5kk2EKuENdJ04u98_Ki38frK_YHAiBiKOLkaYv9bGg6kfFEvr20Jk1VcpS5zq4O18cEovN8WA%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AAO5W4owRQIgO5OKc1gmgedsFjhnzb63XNUYmvJ7p417MvdftEj27RICIQC3nDEhWg57lDi-4HKIsG6SSiVUNaxW49eMpn61ISbyCw%3D%3D;!new_stream;!no_clip;!no_chapters;%982%https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1702604403/ei/E1p7Ze74DZvpxN8Pt8G6qAE/ip/102.212.239.33/id/6c4274fd355787e2/itag/616/source/youtube/requiressl/yes/ratebypass/yes/pfa/1/wft/1/sgovp/clen%3D347203051%3Bdur%3D1022.938%3Bgir%3Dyes%3Bitag%3D356%3Blmt%3D1702489365427813/rqh/1/hls_chunk_host/rr2---sn-0ofpgxq3x-ocvz.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/mh/6M/mm/31,29/mn/sn-0ofpgxq3x-ocvz,sn-hc57enee/ms/au,rdu/mv/m/mvi/2/pl/24/initcwndbps/421250/vprv/1/playlist_type/DVR/dover/13/txp/5532434/mt/1702582422/fvip/3/short_key/1/keepalive/yes/fexp/24007246/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,pfa,wft,sgovp,rqh,xpc,vprv,playlist_type/sig/AJfQdSswRgIhAM8f6WNgOns7xhRueV-PbU2JtpHDeMc2x-vqzJOPOooHAiEA7CDR4Ln7-OjnG1-h_vwpSk5SLLPL-vH0OcWtQ_ATEoo%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl,initcwndbps/lsig/AAO5W4owRQIhANal_LXQVTnHBjyggKOIq2gR7qvm0dANzQ8GEmS-4FA_AiAAq1nRU3lOmCNc8oWdfG3xwSOpO8flZDjHjhxKHVRn4w%3D%3D/playlist/index.m3u8;!global_tags,channel_url=%56%https://www.youtube.com/channel/UCLXo7UDZvByw2ixzpQCufnA,ytdl_description=%3039%We interviewed students and teachers on how schools should handle the rise of the chatbots.
+[  15.579][v][cplayer] 
+[  15.579][v][cplayer] Subscribe to our channel! http://goo.gl/0bsAjO
+[  15.579][v][cplayer] 
+[  15.579][v][cplayer] For a year now, students have had access to AI chatbots, otherwise known as Large Language Models, that can write at a high-school level and answer specific and diverse questions related to many school subjects. OpenAI's ChatGPT kicked off a race among tech companies to release their own chatbots and integrate them into existing consumer products. 
+[  15.579][v][cplayer] 
+[  15.579][v][cplayer] The most advanced language models, like GPT-4 and Claude2 are kept behind paywalls. They offer more nuanced answers and make fewer mistakes but because reliability is not guaranteed, many businesses cannot yet deploy these systems. That means a significant portion of chatbot use cases are for low-stakes applications, like school work. 
+[  15.579][v][cplayer] 
+[  15.579][v][cplayer] This presents a major challenge to educators, who now need to rethink their curriculum to either incorporate chatbot use or to attempt to deter it. In this video, we hear from students and teachers about how they're thinking through the problem, and review research in the science of learning to understand how the "fluency" of a chatbot experience could disrupt the learning process that we go to school for.
+[  15.579][v][cplayer] 
+[  15.579][v][cplayer] 00:00 Intro
+[  15.579][v][cplayer] 02:28 Path 1: Banning AI
+[  15.580][v][cplayer] 06:03 Path 2: Allowing AI
+[  15.580][v][cplayer] 09:52 The problem with the calculator analogy
+[  15.580][v][cplayer] 11:18 The science of learning
+[  15.580][v][cplayer] 15:44 Conclusion
+[  15.580][v][cplayer] 
+[  15.580][v][cplayer] Sources: 
+[  15.580][v][cplayer] https://www.similarweb.com/blog/insights/ai-news/chatgpt-comeback/ 
+[  15.580][v][cplayer] https://help.openai.com/en/articles/8313351-how-can-educators-respond-to-students-presenting-ai-generated-content-as-their-own
+[  15.580][v][cplayer] https://hai.stanford.edu/news/ai-detectors-biased-against-non-native-english-writers 
+[  15.580][v][cplayer] https://www.ibo.org/news/news-about-the-ib/statement-from-the-ib-about-chatgpt-and-artificial-intelligence-in-assessment-and-education/ 
+[  15.580][v][cplayer] "Rethinking GPS navigation: creating cognitive maps through auditory clues" https://www.nature.com/articles/s41598-021-87148-4 
+[  15.580][v][cplayer] "Habitual use of GPS negatively impacts spatial memory during self-guided navigation" https://www.nature.com/articles/s41598-020-62877-0 
+[  15.580][v][cplayer] "Measuring actual learning versus feeling of learning in response to being actively engaged in the classroom" https://www.pnas.org/doi/10.1073/pnas.1821936116
+[  15.580][v][cplayer] https://wac.colostate.edu/repository/collections/ai-text-generators-and-teaching-writing-starting-points-for-inquiry/ 
+[  15.580][v][cplayer] 
+[  15.580][v][cplayer] AI-text-detection error rates:
+[  15.580][v][cplayer] Turnitin https://www.turnitin.com/products/features/ai-writing-detection
+[  15.580][v][cplayer] Originality.ai https://originality.ai/blog/ai-content-detection-accuracy
+[  15.580][v][cplayer] GPTZero https://gptzero.me/faq
+[  15.580][v][cplayer] Sapling.ai https://sapling.ai/ai-content-detector
+[  15.580][v][cplayer] Compilatio https://support.compilatio.net/hc/en-us/articles/17408769118993-How-reliable-is-the-Compilatio-AI-detector-
+[  15.580][v][cplayer] 
+[  15.580][v][cplayer] Vox.com is a news website that helps you cut through the noise and understand what's really driving the events in the headlines. Check out http://www.vox.com.
+[  15.580][v][cplayer] 
+[  15.580][v][cplayer] Watch our full video catalog: http://goo.gl/IZONyE
+[  15.580][v][cplayer] Follow Vox on Facebook: http://goo.gl/U2g06o
+[  15.580][v][cplayer] Or Twitter: http://goo.gl/XFrZ5H,uploader=%3%Vox
+[  15.580][d][global] config path: 'sub' -/-> '/home/hamza/.config/mpv/sub'
+[  15.580][d][global] config path: 'sub' -/-> '/home/hamza/.mpv/sub'
+[  15.580][d][global] config path: 'sub' -/-> '/etc/mpv/sub'
+[  15.580][v][cplayer] Running hook: ytdl_hook/on_preloaded
+[  15.580][v][ytdl_hook] Setting chapters 
+[  15.580][v][cplayer] Set property: chapter-list=[{"time":0,"title":"Intro"},{"time":148,"title":"Path 1: Banning AI"},{"time":363,"title":"Path 2: Allowing AI"},{"time":592,"title":"The problem with the calculator analogy"},{"time":678,"title":"The science of learning"},{"time":944,"title":"Conclusion"}] -> 1
+[  15.580][v][timeline] select track 0
+[  15.580][v][timeline] select track 1
+[  15.580][i][cplayer]  (+) Video --vid=1 (*) (vp9 1920x1080 23.976fps)
+[  15.580][i][cplayer]  (+) Audio --aid=1 --alang=eng (*) (opus 2ch 48000Hz)
+[  15.580][i][cplayer]      Subs  --sid=1 --slang=en 'English' (webvtt) (external)
+[  15.581][v][vo/gpu] Probing for best GPU context.
+[  15.581][v][vo/gpu/opengl] Initializing GPU context 'x11egl'
+[  15.582][v][vo/gpu/x11] X11 opening display: :0
+[  15.588][d][vo/gpu/x11] X11 running at 1920x1080 (":0" => local display)
+[  15.588][d][vo/gpu/x11] Detected wm supports NetWM.
+[  15.588][d][vo/gpu/x11] Detected wm supports STICKY state.
+[  15.588][d][vo/gpu/x11] Detected wm supports FULLSCREEN state.
+[  15.640][v][vo/gpu/opengl] EGL_VERSION=1.5
+[  15.640][v][vo/gpu/opengl] EGL_VENDOR=Mesa Project
+[  15.640][v][vo/gpu/opengl] EGL_CLIENT_APIS=OpenGL OpenGL_ES 
+[  15.640][v][vo/gpu/opengl] Trying to create Desktop OpenGL context.
+[  15.640][d][vo/gpu/opengl] Chosen EGLConfig:
+[  15.640][d][vo/gpu/opengl]   EGL_CONFIG_ID=0xb
+[  15.640][d][vo/gpu/opengl]   EGL_RED_SIZE=0x8
+[  15.640][d][vo/gpu/opengl]   EGL_GREEN_SIZE=0x8
+[  15.640][d][vo/gpu/opengl]   EGL_BLUE_SIZE=0x8
+[  15.640][d][vo/gpu/opengl]   EGL_ALPHA_SIZE=0x0
+[  15.640][d][vo/gpu/opengl]   EGL_COLOR_BUFFER_TYPE=0x308e
+[  15.640][d][vo/gpu/opengl]   EGL_CONFIG_CAVEAT=0x3038
+[  15.640][d][vo/gpu/opengl]   EGL_CONFORMANT=0x4d
+[  15.640][d][vo/gpu/opengl]   EGL_NATIVE_VISUAL_ID=0x21
+[  15.647][v][vo/gpu/opengl] Choosing visual EGL config 0xb, visual ID 0x21
+[  15.647][v][vo/gpu/x11] The XPresent extension was found.
+[  15.647][v][vo/gpu/x11] XPresent disabled.
+[  15.654][v][vo/gpu/opengl] GL_VERSION='4.5 (Core Profile) Mesa 22.3.7'
+[  15.654][v][vo/gpu/opengl] Detected desktop OpenGL 4.5.
+[  15.654][v][vo/gpu/opengl] GL_VENDOR='Mesa/X.org'
+[  15.654][v][vo/gpu/opengl] GL_RENDERER='llvmpipe (LLVM 13.0.0, 256 bits)'
+[  15.654][v][vo/gpu/opengl] GL_SHADING_LANGUAGE_VERSION='4.50'
+[  15.654][d][vo/gpu/opengl] Combined OpenGL extensions string:
+[  15.654][d][vo/gpu/opengl] EGL_ANGLE_sync_control_rate EGL_EXT_create_context_robustness EGL_KHR_cl_event2 EGL_KHR_config_attribs EGL_KHR_context_flush_control EGL_KHR_create_context EGL_KHR_create_context_no_error EGL_KHR_fence_sync EGL_KHR_get_all_proc_addresses EGL_KHR_gl_colorspace EGL_KHR_gl_renderbuffer_image EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_3D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_image_base EGL_KHR_no_config_context EGL_KHR_reusable_sync EGL_KHR_surfaceless_context EGL_EXT_pixel_format_float EGL_KHR_wait_sync EGL_MESA_configless_context EGL_MESA_drm_image EGL_MESA_query_driver  GL_3DFX_texture_compression_FXT1 GL_AMD_conservative_depth GL_AMD_draw_buffers_blend GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_filter_minmax GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARM_shader_framebuffer_fetch_depth_stencil GL_ATI_blend_equation_separate GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_shader_framebuffer_fetch GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_shader_integer_mix GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_RG8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_IBM_multimode_draw_arrays GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_MESA_ycbcr_texture GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_atomic_float GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
+[  15.654][v][vo/gpu/opengl] Loaded extension GL_KHR_debug.
+[  15.654][v][vo/gpu/opengl] Detected suspected software renderer.
+[  15.655][w][vo/gpu/opengl] Suspected software renderer or indirect context.
+[  15.665][d][vo/gpu/x11] uninit ...
+[  15.665][e][vo/gpu] Failed initializing any suitable GPU context!
+[  15.666][f][cplayer] Error opening/initializing the selected video_out (--vo) device.
+[  15.666][v][timeline] deselect track 1
+[  15.666][i][cplayer] Video: no video
+[  15.667][v][ad] Codec list:
+[  15.667][v][ad]     opus - Opus
+[  15.667][v][ad]     libopus (opus) - libopus Opus
+[  15.667][v][ad] Opening decoder opus
+[  15.667][v][ad] Requesting 1 threads for decoding.
+[  15.669][v][ad] Selected codec: opus (Opus)
+[  15.671][v][af] User filter list:
+[  15.671][v][af]   dynaudnorm (dynaudnorm.00)
+[  15.671][v][cplayer] Starting playback...
+[  15.671][v][cplayer] EOF code: 6  
+[  15.671][d][ad] Uninit decoder.
+[  15.672][d][cplayer] Terminating demuxers...
+[  15.672][d][ffmpeg] AVIOContext: Statistics: 16384 bytes read, 0 seeks
+[  15.673][d][ffmpeg] AVIOContext: Statistics: 1638467 bytes read, 0 seeks
+[  15.673][d][ffmpeg] AVIOContext: Statistics: 0 bytes read, 0 seeks
+[  15.674][d][ffmpeg] AVIOContext: Statistics: 203856 bytes read, 0 seeks
+[  15.674][d][ffmpeg] AVIOContext: Statistics: 2279 bytes read, 0 seeks
+[  15.675][d][cplayer] Done terminating demuxers.
+[  15.675][v][cplayer] finished playback, something happened (reason 4)
+[  15.675][i][cplayer] 
+[  15.675][i][cplayer] Exiting... (Errors when loading file)
+[  15.677][d][stats] Exiting...
+[  15.677][d][console] Exiting...
+[  15.679][d][ytdl_hook] Exiting...

@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE oor:component-data SYSTEM "../../../../component-update.dtd">
+<oor:component-data oor:name="OptionsDialog" oor:package="org.openoffice.Office" xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <node oor:name="Nodes">
+        <node oor:name="LanguageSettings" oor:op="fuse">
+            <prop oor:name="Label">
+                <value xml:lang="en-US">Language Settings</value>
+            	<value xml:lang="ar">إعدادات اللغة</value>
+            	<value xml:lang="bg">Езикови настройки</value>
+            	<value xml:lang="ca">Paràmetres de la llengua</value>
+            	<value xml:lang="cs">Jazyková nastavení</value>
+            	<value xml:lang="de">Spracheinstellungen</value>
+            	<value xml:lang="el">Ρυθμίσεις γλώσσας</value>
+            	<value xml:lang="es">Configuración de idiomas</value>
+            	<value xml:lang="fa">تنظیمات زبان</value>
+            	<value xml:lang="fi">Kieliasetukset</value>
+            	<value xml:lang="fr">Paramètres linguistiques</value>
+            	<value xml:lang="hr">Jezične postavke</value>
+            	<value xml:lang="hu">Nyelvi beállítások</value>
+            	<value xml:lang="it">Impostazioni della lingua</value>
+            	<value xml:lang="ja">言語設定</value>
+            	<value xml:lang="kk">Тіл баптаулары</value>
+            	<value xml:lang="lt">Kalbos nuostatos</value>
+            	<value xml:lang="lv">Valodas iestatījumi</value>
+            	<value xml:lang="nl">Taalinstellingen</value>
+            	<value xml:lang="pl">Ustawienia językowe</value>
+            	<value xml:lang="pt-BR">Configurações de idioma</value>
+            	<value xml:lang="ro">Setări lingvistice</value>
+            	<value xml:lang="ru">Настройки языка</value>
+            	<value xml:lang="sl">Nastavitve jezika</value>
+            	<value xml:lang="sv">Språkinställningar</value>
+            	<value xml:lang="uk">Мовні параметри</value>
+            </prop>
+            <node oor:name="Leaves">
+                <node oor:name="org.openoffice.lightproof.en" oor:op="fuse">
+                    <prop oor:name="Id">
+                        <value>org.openoffice.en.hunspell.dictionaries</value>
+                    </prop>
+                    <prop oor:name="Label">
+                        <value xml:lang="en-US">English Sentence Checking</value>
+                    	<value xml:lang="ar">تدقيق الجُملة الإنجليزية</value>
+                    	<value xml:lang="bg">Проверка на изреченията за английски</value>
+                    	<value xml:lang="ca">Comprovació de frases en anglès</value>
+                    	<value xml:lang="cs">Kontrola anglických vět</value>
+                    	<value xml:lang="de">Englische Satzkontrolle</value>
+                    	<value xml:lang="el">Αγγλικός έλεγχος πρότασης</value>
+                    	<value xml:lang="es">Revisión de oraciones en inglés</value>
+                    	<value xml:lang="fa">در حال چک کردن گزاره‌های انگلیسی</value>
+                    	<value xml:lang="fi">Englannin virkkeiden tarkistus</value>
+                    	<value xml:lang="fr">Vérification de la phrase en anglais</value>
+                    	<value xml:lang="hr">Provjeravanje rečenica za engleski</value>
+                    	<value xml:lang="hu">Angol mondatellenőrző</value>
+                    	<value xml:lang="it">Analisi della frase inglese</value>
+                    	<value xml:lang="ja">英文のチェック</value>
+                    	<value xml:lang="kk">Грамматиканы тексеру (ағылшын)</value>
+                    	<value xml:lang="lt">Anglų kalbos sakinių tikrinimas</value>
+                    	<value xml:lang="lv">Gramatikas pārbaude angļu valodā</value>
+                    	<value xml:lang="nl">Engelse zin controleren</value>
+                    	<value xml:lang="pl">Sprawdzanie zdań w języku angielskim</value>
+                    	<value xml:lang="pt-BR">Verificação de frases em inglês</value>
+                    	<value xml:lang="ro">Verificare de propoziții în limba engleză</value>
+                    	<value xml:lang="ru">Грамматика (английский)</value>
+                    	<value xml:lang="sl">Preverjanje angleških povedi</value>
+                    	<value xml:lang="sv">Engelsk meningskontroll</value>
+                    	<value xml:lang="uk">Перевірка граматики (англійська)</value>
+                    </prop>
+                    <prop oor:name="OptionsPage">
+                        <value>vnd.sun.star.expand:$BUNDLED_EXTENSIONS/dict-en/dialog/en.xdl</value>
+                    </prop>
+                    <prop oor:name="EventHandlerService">
+                        <value>org.libreoffice.comp.pyuno.LightproofOptionsEventHandler.en</value>
+                    </prop>
+                </node>
+            </node>
+        </node>
+    </node>
+</oor:component-data>
