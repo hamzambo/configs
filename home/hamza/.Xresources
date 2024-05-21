@@ -78,3 +78,12 @@ XTerm*on3Clicks              : line
 XTerm*VT100*Translations     : #override Shift : exec-formatted("chrome --enable-unveil '%t'", PRIMARY)
 xterm*faceName: Monospace
 xterm*faceSize: 16
+
+!!! termbar
+termbar*faceName: dejavu sans mono:size=12
+termbar*geometry: 3840x1+0+0
+termbar*internalBorder: 6
+termbar*saveLines: 0
+termbar*locale: true
+termbar*scrollBar: false
+termbar*title: termbar
