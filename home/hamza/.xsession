@@ -7,9 +7,6 @@ export LANG=en_US.UTF-8
 # load Xresources file
  xrdb -merge $HOME/.Xresources
 
-# set your background photos
-feh --bg-fill --no-fehbg --randomize --recursive ~/data/pictures
-
 # sadly, xclock has a bug where the font selection is ignored when UTF-8
 # is enabled, so we unset LANG here.
 LANG= xclock -strftime "%a %e %b %Y %H:%M" &
@@ -23,9 +20,16 @@ setxkbmap -option caps:escape
 # start x-term
 xterm &
 
+# Termbar
+exec xterm -fs 12 -bg "black" -fg "grey" -name termbar -class termbar -T termbar -e ~/bin/termbar &
+
 # start firefox
 firefox &
 
+# Wallpaper
+feh --bg-center 
 
 # invoke cwm
 /usr/X11R6/bin/cwm
+
+cleanup
