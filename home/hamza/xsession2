@@ -1,0 +1,96 @@
+#!/bin/sh -x
+
+## Cleanup stuff on exit
+cleanup() {
+        pkill -9 sctd
+        pkill -9 xidle
+        pkill -9 lock
+        rm -rf ~/TorBrowser-Data
+        rm -f ~/.Xauthority
+        rm -rf ~/.local/share/Trash
+        chmod 700 ~
+}
+
+. $HOME/.profile
+
+## Load colours
+xrdb -merge $HOME/.Xresources
+
+## DBus
+if [ -x /usr/local/bin/dbus-launch -a -z "${DBUS_SESSION_BUS_ADDRESS}" ]; then
+        eval `dbus-launch --sh-syntax --exit-with-x11`
+fi
+
+## fonts
+xset -b &
+for font in /usr/local/share/fonts/*; do
+        xset +fp "${font}"
+        done
+xset fp rehash
+
+## Fix resolution
+xrandr --dpi 96
+
+## Turn off mic
+sndioctl input.mute=1
+sndioctl input.level=0.0
+
+## Turn down sound
+sndioctl output.level=0.0
+
+## External Monitor
+## this is the output
+## of arandr to arrange
+## my monitor
+~/bin/monitores &
+
+## Select Keyboard layout
+## depending on the host
+if [ X`hostname` = X"tomato" ]; then
+        setxkbmap jp
+else
+        setxkbmap de
+fi
+
+## LANG
+export LANG=en_US.UTF-8
+export LC_CTYPE=en_US.UTF-8
+
+## Browser shitz
+export MOZ_USE_XINPUT2=1
+export MOZ_ACCELERATED=1
+export MOZ_WEBRENDER=1
+## WASM for Chromium
+export ENABLE_WASM=1
+
+## jp
+## ctrl+space
+## F6 & F7 hiragana <-> katakana
+export GTK_IM_MODULE="xim"
+export QT_IM_MODULE="xim"
+export XMODIFIERS="@im=SCIM"
+/usr/local/bin/scim -d &
+
+export BLOCKSIZE=1m
+
+## no bell
+xset b 0 0 0
+xset -dpms
+xset s off
+xset s noblank
+
+## ~/bin/lock does some protections and runs slock
+xidle -timeout 9000 -ne -program ~/bin/lock &
+
+## screen control
+~/bin/sctd &
+
+# Termbar
+exec xterm -fs 12 -bg "black" -fg "grey" -name termbar -class termbar -T termbar -e ~/bin/termbar &
+
+# Wallpaper
+feh --bg-center ~/themes/blade-runner--wallpaper.jpg &
+
+exec cwm
+
+cleanup
