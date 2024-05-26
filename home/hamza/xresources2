@@ -21,3 +21,26 @@
 *color19: rgb:4b/69/88 # Base 02
 *color20: rgb:7e/90/a3 # Base 04
 *color21: rgb:d6/d7/d9 # Base 06
+
+!!! Xterm
+XTerm*background: black
+XTerm*foreground: rgb:9f/a2/a6
+XTerm*eightBitInput: false
+XTerm*loginShell: true
+XTerm*scrollBar: false
+XTerm*saveLines: 2000
+XTerm*faceName: dejavu sans mono:size=12
+XTerm*internalBorder: 10
+XTerm*locale: true
+XTerm*pointerMode: 2
+XTerm*allowTitleOps: true
+XTerm*termName: xterm-256color
+
+!!! termbar
+termbar*faceName: dejavu sans mono:size=12
+termbar*geometry: 3840x1+0+0
+termbar*internalBorder: 6
+termbar*saveLines: 0
+termbar*locale: true
+termbar*scrollBar: false
+termbar*title: termbar
