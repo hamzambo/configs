@@ -68,3 +68,4 @@ alias svi="doas vi"
 alias john='mpv https://www.youtube.com/LastWeekTonight'
 alias mkbhd='mpv https://www.youtube.com/mkbhd'
 alias dy="dig +short @dns.toys"
+alias sdate='doas rdate -ncv pool.ntp.org' 
