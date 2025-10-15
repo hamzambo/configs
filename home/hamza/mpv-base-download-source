@@ -1,0 +1,8 @@
+# 1. Download the latest yt-dlp binary to your local bin directory
+mkdir -p ~/.local/bin && wget -qO ~/.local/bin/yt-dlp https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp
+
+# 2. Make the downloaded file executable
+chmod a+rx ~/.local/bin/yt-dlp
+
+# 3. Add the configuration to mpv.conf (creates the file if it doesn't exist)
+echo 'script-opts=ytdl_hook-ytdl_path=~/.local/bin/yt-dlp' >> ~/.config/mpv/mpv.conf
